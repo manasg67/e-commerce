@@ -23,27 +23,27 @@ export default function Header() {
         <nav aria-label="Global">
           <ul className="flex items-center gap-6 text-lg">
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
+              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> New & Featured </a>
             </li>
 
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Careers </a>
+              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Men</a>
             </li>
 
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> History </a>
+              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Women</a>
             </li>
 
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Services </a>
+              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Kids</a>
             </li>
 
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Projects </a>
+              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Sale</a>
             </li>
 
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Blog </a>
+              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> SNKRS </a>
             </li>
           </ul>
         </nav>
@@ -52,7 +52,7 @@ export default function Header() {
       <div className="flex items-center gap-4">
         <div className="sm:flex sm:gap-4">
           <a
-            className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
+            className="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white shadow"
             href="#"
           >
             Login
@@ -60,7 +60,7 @@ export default function Header() {
 
           <div className="hidden sm:flex">
             <a
-              className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
+              className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-black"
               href="#"
             >
               Register
