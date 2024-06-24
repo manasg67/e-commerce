@@ -24,7 +24,7 @@ export default function Page() {
         <h1 className='text-black text-5xl font-extrabold font-sans mt-5 subpixel-antialiased '>DON’T WASTE YOUR ENERGY</h1>
         <a
             className="rounded-md bg-black px-5 py-2.5 text-lg font-medium mt-6 text-white shadow"
-            href="/Testscreen.js"
+            href="/Testscreen"
           >
             Shop
          </a>
