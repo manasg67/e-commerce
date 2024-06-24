@@ -154,7 +154,7 @@ export default function page() {
           <dl className="mt-0.5 space-y-px text-[10px] text-gray-600">
             <div>
               <dt className="inline">Size:</dt>
-              <dd className="inline">XS</dd>
+              <dd className="inline">XSS</dd>
             </div>
 
             <div>
