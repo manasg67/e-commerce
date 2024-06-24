@@ -1,9 +1,13 @@
 import React from 'react'
- import Mainscreen from "@/app/Mainscreen/page"
+ import Header from './Header'
+ import Landingpage from '@/app/Landingpage/page'
+import Footer from './Footer'
 export default function page() {
   return (
     <div>
-      < Mainscreen/>
+      <Header/>
+      <Landingpage/>
+      <Footer/>
     </div>
   )
 }

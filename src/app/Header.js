@@ -8,7 +8,7 @@ export default function Header() {
   <div className="mx-auto w-screen px-4 sm:px-6 lg:px-8">
     <div className="flex h-20 items-center justify-between">
       <div className="md:flex md:items-center md:gap-12">
-        <a className="block text-teal-600" href="#">
+        <a className="block text-teal-600" href="/">
           <span className="sr-only">Home</span>
           <Image
           src="/logo_2.png"
@@ -59,7 +59,7 @@ export default function Header() {
         <div className="sm:flex sm:gap-4">
           <a
             className="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white shadow"
-            href="#"
+            href="/Login"
           >
             Login
           </a>
@@ -67,7 +67,7 @@ export default function Header() {
           <div className="hidden sm:flex">
             <a
               className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-black"
-              href="#"
+              href="/Signup"
             >
               Register
             </a>
