@@ -61,7 +61,7 @@ export default function Header() {
             className="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white shadow"
             href="/Login"
           >
-            Login
+            logout
           </a>
 
           <div className="hidden sm:flex">

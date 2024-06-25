@@ -5,7 +5,7 @@ import Footer from './Footer'
 export default function page() {
   return (
     <div>
-      <Header/>
+    
       <Landingpage/>
       <Footer/>
     </div>
