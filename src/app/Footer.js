@@ -3,152 +3,32 @@ import React from 'react'
 
 export default function Footer() {
   return (
-<footer className="bg-white">
-  <div className="mx-auto w-screen px-4 py-16 sm:px-6 lg:px-8">
-    <div className="lg:flex lg:items-start lg:gap-8">
-      <div className="text-teal-600">
-      <Image
-          src="/logo_2.png"
-          width={200}
-          height={200}
-          alt="Picture of the author"
-        />
-      </div>
+<footer className="bg-white lg:grid lg:grid-cols-5">
+  <div className="relative block h-32 lg:col-span-2 lg:h-full">
+    <img
+      src="https://images.unsplash.com/photo-1642370324100-324b21fab3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+      alt=""
+      className="absolute inset-0 w-full object-cover"
+    />
+  </div>
 
-      <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
-        <div className="col-span-2">
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900">Get the latest news!</h2>
+  <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
+    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
+      <div>
+        <p>
+          <span className="text-xs uppercase tracking-wide text-gray-500"> Call us </span>
 
-            <p className="mt-4 text-gray-500">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam
-              molestias.
-            </p>
-          </div>
-        </div>
+          <a href="#" className="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
+            0123456789
+          </a>
+        </p>
 
-        <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
-          <form className="w-full">
-            <label htmlFor="UserEmail" className="sr-only"> Email </label>
+        <ul className="mt-8 space-y-1 text-sm text-gray-700">
+          <li>Monday to Friday: 10am - 5pm</li>
+          <li>Weekend: 10am - 3pm</li>
+        </ul>
 
-            <div
-              className="border border-gray-100 p-2  sm:flex sm:items-center sm:gap-4"
-            >
-              <input
-                type="email"
-                id="UserEmail"
-                placeholder="john@rhcp.com"
-                className="w-full   sm:text-sm  text-black"
-              />
-
-              <button
-                className="mt-1 w-full bg-black rounded-lg px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-white hover:text-black sm:mt-0 sm:w-auto sm:shrink-0"
-              >
-                Sign Up
-              </button>
-            </div>
-          </form>
-        </div>
-
-        <div className="col-span-2 sm:col-span-1">
-          <p className="font-medium text-gray-900">Services</p>
-
-          <ul className="mt-6 space-y-4 text-sm">
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Company Review </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> HR Consulting </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> SEO Optimisation </a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="col-span-2 sm:col-span-1">
-          <p className="font-medium text-gray-900">Company</p>
-
-          <ul className="mt-6 space-y-4 text-sm">
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> About </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="col-span-2 sm:col-span-1">
-          <p className="font-medium text-gray-900">Helpful Links</p>
-
-          <ul className="mt-6 space-y-4 text-sm">
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Contact </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> FAQs </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Live Chat </a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="col-span-2 sm:col-span-1">
-          <p className="font-medium text-gray-900">Legal</p>
-
-          <ul className="mt-6 space-y-4 text-sm">
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Accessibility </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Returns Policy </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Refund Policy </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Hiring Statistics </a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="col-span-2 sm:col-span-1">
-          <p className="font-medium text-gray-900">Downloads</p>
-
-          <ul className="mt-6 space-y-4 text-sm">
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Marketing Calendar </a>
-            </li>
-
-            <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> SEO Infographics </a>
-            </li>
-          </ul>
-        </div>
-
-        <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
+        <ul className="mt-8 flex gap-6">
           <li>
             <a
               href="#"
@@ -243,13 +123,57 @@ export default function Footer() {
           </li>
         </ul>
       </div>
+
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div>
+          <p className="font-medium text-gray-900">Services</p>
+
+          <ul className="mt-6 space-y-4 text-sm">
+            <li>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
+            </li>
+
+            <li>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Company Review </a>
+            </li>
+
+            <li>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
+            </li>
+
+            <li>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> HR Consulting </a>
+            </li>
+
+            <li>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> SEO Optimisation </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p className="font-medium text-gray-900">Company</p>
+
+          <ul className="mt-6 space-y-4 text-sm">
+            <li>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> About </a>
+            </li>
+
+            <li>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
+            </li>
+
+            <li>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <div className="mt-8 border-t border-gray-100 pt-8">
-      <div className="sm:flex sm:justify-between">
-        <p className="text-xs text-gray-500">&copy; 2022. Company Name. All rights reserved.</p>
-
-        <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
+    <div className="mt-12 border-t border-gray-100 pt-12">
+      <div className="sm:flex sm:items-center sm:justify-between">
+        <ul className="flex flex-wrap gap-4 text-xs">
           <li>
             <a href="#" className="text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
           </li>
@@ -262,6 +186,10 @@ export default function Footer() {
             <a href="#" className="text-gray-500 transition hover:opacity-75"> Cookies </a>
           </li>
         </ul>
+
+        <p className="mt-8 text-xs text-gray-500 sm:mt-0">
+          &copy; 2022. Company Name. All rights reserved.
+        </p>
       </div>
     </div>
   </div>

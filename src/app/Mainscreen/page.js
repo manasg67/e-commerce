@@ -20,7 +20,7 @@ export default function Page() {
           height={200}
           alt="Picture of the author"
         />
-        <h2 className='text-neutral-950 text-2xl mt-8'>Raaalpha Runner 204</h2>
+        <h2 className='text-neutral-950 text-2xl mt-8'>Ralph Runner 204</h2>
         <h1 className='text-black text-5xl font-extrabold font-sans mt-5 subpixel-antialiased '>DON’T WASTE YOUR ENERGY</h1>
         <a
             className="rounded-md bg-black px-5 py-2.5 text-lg font-medium mt-6 text-white shadow"

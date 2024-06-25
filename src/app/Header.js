@@ -26,7 +26,7 @@ export default function Header() {
               <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> New & Featured </a>
             </li>
 
-            <li>
+            {/* <li>
               <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Men</a>
             </li>
 
@@ -36,14 +36,14 @@ export default function Header() {
 
             <li>
               <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Kids</a>
+            </li> */}
+
+            <li>
+              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Your Orders</a>
             </li>
 
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Sale</a>
-            </li>
-
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> SNKRS </a>
+              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Support </a>
             </li>
           </ul>
         </nav>
